@@ -48,3 +48,4 @@ app-example
 
 .mcp*
 *.apk
+eas.json
