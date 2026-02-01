@@ -75,7 +75,7 @@ export default function BottomNav({ onAiPress }: BottomNavProps) {
             {/* 3D Effect Layers */}
             <View style={styles.fabHighlight} />
             <Image
-              source={require("../assets/icon.png")}
+              source={require("../assets/images/ai-logo.png")}
               style={{ width: 56, height: 56, borderRadius: 28 }}
               resizeMode="cover"
             />

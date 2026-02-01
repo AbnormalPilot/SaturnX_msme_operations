@@ -61,13 +61,22 @@
       "favicon": "./assets/images/favicon.png"
     },
     "splash": {
+      "image": "./assets/images/splash-icon.png",
       "backgroundColor": "#ffffff",
       "resizeMode": "contain"
     },
     "plugins": [
       "expo-router",
       "expo-web-browser",
-      "expo-splash-screen"
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ]
     ],
     "experiments": {
       "typedRoutes": true,
