@@ -2,6 +2,14 @@
 
 **BusinessAI** is a collaborative mobile application designed to streamline MSME (Micro, Small, and Medium Enterprises) operations. Built with React Native and Expo, it leverages AI capabilities to provide intelligent business solutions.
 
+## 🔗 Project Repositories
+
+This is part of a multi-repo project:
+
+- **📱 Mobile App** (This Repo): React Native + Expo client application
+- **🔧 MCP Server**: [https://github.com/AbnormalPilot/vyapar-mcp](https://github.com/AbnormalPilot/vyapar-mcp) - Backend tools and APIs
+- **🌐 Landing Page**: [https://github.com/AbnormalPilot/BusinessAi](https://github.com/AbnormalPilot/BusinessAi) - Marketing website
+
 ## 🚀 Features
 
 *   **AI Voice Assistant**: Integrated voice capabilities for hands-free operation and queries (powered by `expo-speech` and `expo-av`).

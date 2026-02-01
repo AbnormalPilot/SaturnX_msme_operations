@@ -4,8 +4,9 @@
  */
 
 import { supabase } from './supabase';
+import { Config } from './config';
 
-const MCP_SERVER_URL = process.env.EXPO_PUBLIC_MCP_SERVER_URL || 'https://mcp.felon.in';
+const MCP_SERVER_URL = Config.MCP_SERVER_URL;
 
 interface MCPToolCall {
   name: string;

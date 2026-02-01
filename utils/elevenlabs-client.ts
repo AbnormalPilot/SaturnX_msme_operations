@@ -5,6 +5,7 @@
  */
 
 import { Audio } from 'expo-av';
+import { Config } from './config';
 
 export interface ElevenLabsVoice {
   voice_id: string;
@@ -66,7 +67,7 @@ export class ElevenLabsClient {
   };
 
   constructor(apiKey?: string) {
-    this.apiKey = apiKey || process.env.EXPO_PUBLIC_ELEVENLABS_API_KEY || '';
+    this.apiKey = apiKey || Config.ELEVENLABS_API_KEY || '';
 
     if (!this.apiKey) {
       console.warn('ElevenLabs API key not configured. TTS will not work.');

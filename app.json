@@ -86,7 +86,13 @@
       "router": {},
       "eas": {
         "projectId": "52a5dda1-2964-4d9a-b258-68fbaaabb2c2"
-      }
+      },
+      "GEMMA_API_KEY": "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",
+      "ELEVENLABS_API_KEY": "sk_7c2ad1e415151b4751c3942bee78bbfa8525e2cb4982a944",
+      "MCP_SERVER_URL": "https://mcp.felon.in",
+      "SUPABASE_URL": "https://uldpjzzhdcekwnjjlasn.supabase.co",
+      "SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVsZHBqenpoZGNla3duampsYXNuIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjkxNTYyNzQsImV4cCI6MjA4NDczMjI3NH0.vGH7Hl_A6Hf-j3ieGC621X6iZ_bcW68_iZFQOKxsYGo",
+      "GOOGLE_WEB_CLIENT_ID": "795055300087-ke6luuc47j8avgansmvsc2dptdvuknhs.apps.googleusercontent.com"
     }
   }
 }

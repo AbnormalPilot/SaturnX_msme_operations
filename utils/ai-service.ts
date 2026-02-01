@@ -6,9 +6,10 @@
 import { useUserStore } from '../store/useUserStore';
 import { callMCPTool } from './mcp-client';
 import { supabase } from './supabase';
+import { Config } from './config';
 
 const OPENROUTER_API_URL = 'https://openrouter.ai/api/v1/chat/completions';
-const API_KEY = process.env.EXPO_PUBLIC_GEMMA_API_KEY;
+const API_KEY = Config.GEMMA_API_KEY;
 
 /**
  * Get user profile for context
